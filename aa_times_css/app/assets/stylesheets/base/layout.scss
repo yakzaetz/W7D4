@@ -32,6 +32,16 @@ button:hover {
 	border-color:darkblue;
 }
 
+nav span{
+	font-size: 20px;
+	// width: 18px;
+}
+
+.gear {
+	font-size: 20px;
+	padding: 5px;
+}
+
 /*
 	Header Rules
 */
@@ -56,4 +66,31 @@ hr {
 	color: lightgray;
 }
 
+#sections-sidebar-btn:hover{
+	color: lightgray;
+}
 
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	margin: 10px;
+}
+
+.left-nav ul li{
+	padding: 20px;
+	margin: 10px;
+}
+
+.right-nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
